@@ -1,0 +1,29 @@
+//mixins for different viewports
+
+@mixin for-size($viewport) {
+    @if $viewport == phone-only {
+        @media (max-width:599px) {
+            @content;
+        }
+    }
+    @else if $viewport == tablet-portrait-up{
+        @media (min-width:600px) {
+            @content;
+        }
+    }
+    @else if $viewport == tablet-landscape-up{
+        @media (min-width:900px) {
+            @content;
+        }
+    }
+    @else if $viewport == desktop-up{
+        @media (min-width:1200px) {
+            @content;
+        }
+    }
+    @else if $viewport == big-desktop-up{
+        @media (min-width:1800px) {
+            @content;
+        }
+    }
+}

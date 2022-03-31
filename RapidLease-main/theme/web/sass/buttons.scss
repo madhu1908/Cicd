@@ -1,0 +1,237 @@
+@import "variables.scss";
+
+// conformation button style
+.modal-footer.mx-dialog-footer .btn.btn-primary{
+    color: #fff !important;
+}
+.modal-footer.mx-dialog-footer .btn{
+    color: black !important;
+}
+
+
+.mx-grid-pagingbar {
+    button {
+        min-width: unset !important;
+        color: #888888!important;
+        margin-right: unset;
+    }
+}
+.modal-content{
+    .close{
+        min-width: unset;
+    }
+}
+button {
+    min-width: 130px;
+    margin-right: 10px;
+    &:hover {
+        border-color: #a8c0ff !important;
+    }
+    &.export{
+        background-color: $primary-dark!important;
+    }
+    .check{
+        background-color: $primary-dark;
+    }
+    &.submit,
+    &.proceed,
+    &.approve {
+        color: #000 !important;
+        background-color: #e1e9ff !important;
+        font-weight: 500;
+        border-radius: 25px;
+        border: 0.5px solid #a8c0ff;
+    }
+    &.return{
+        color: #000 !important;
+        background-color: #e1e9ff !important;
+        font-weight: 500;
+        border-radius: 25px;
+        border: 0.5px solid #a8c0ff;
+    }
+    &.upload{
+        color: #000 !important;
+        background-color: #e1e9ff !important;
+        font-weight: 500;
+        border-radius: 25px;
+        border: 0.5px solid #a8c0ff;
+        &::before{
+           content: "\f093";
+           font-family: "Font Awesome 5 Pro";
+           padding-right: 5px;
+        }
+    }
+    &.hello{
+       &::before{
+          content: "\f0e8";
+          font-family: "Font Awesome 5 Pro";
+         
+          padding: 0px 5px;
+       }
+   }
+   
+    &.reject{
+        color: #000 !important;
+        background-color: #e1e9ff !important;
+        font-weight: 500;
+        border-radius: 25px;
+        border: 0.5px solid #a8c0ff;
+    }
+    &.new{
+        color: #000 !important;
+        background-color: #e1e9ff !important;
+        font-weight: 500;
+        border-radius: 25px;
+        border: 0.5px solid #a8c0ff;
+        &::before {
+            content: "\f067";
+            font-family: "Font Awesome 5 Pro";
+            padding-right: 5px;
+        }
+    }
+    &.view {
+        color: #000 !important;
+        background-color: #e1e9ff !important;
+        font-weight: 500;
+        border-radius: 25px;
+        border: 0.5px solid #a8c0ff;
+
+        &::before {
+            content: "\f06e";
+            font-family: "Font Awesome 5 Pro";
+            padding-right: 5px;
+        }
+    }
+
+    &.edit {
+        color: #000 !important;
+        background-color: #e1e9ff !important;
+        font-weight: 500;
+        border-radius: 25px;
+        border: 0.5px solid #a8c0ff;
+        &::before {
+            content: "\f044";
+            font-family: "Font Awesome 5 Pro";
+            padding-right: 5px;
+        }
+    }
+
+    &.delete {
+        color: #000 !important;
+        background-color: #e1e9ff !important;
+        font-weight: 500;
+        border-radius: 25px;
+        border: 0.5px solid #a8c0ff;
+
+        &::before {
+            content: "\f1f8";
+            font-family: "Font Awesome 5 Pro";
+            padding-right: 5px;
+        }
+    }
+
+    &.delegate {
+        color: #000 !important;
+        background-color: #e1e9ff !important;
+        font-weight: 500;
+        border-radius: 25px;
+        border: 0.5px solid #a8c0ff;
+         &::before {
+             content: "\f503";
+             font-family: "Font Awesome 5 Pro";
+             padding-right: 5px;
+         }
+    }
+
+    &.next {
+        color: #000 !important;
+        background-color: #e1e9ff !important;
+        font-weight: 500;
+        border-radius: 25px;
+        border: 0.5px solid #a8c0ff;
+         &::after {
+             content: "\f054";
+             font-family: "Font Awesome 5 Pro";
+             padding-left: 10px;
+         }
+    }
+
+    &.add {
+        color: #000 !important;
+        background-color: #e1e9ff !important;
+        font-weight: 500;
+        border-radius: 25px;
+        border: 0.5px solid #a8c0ff;
+
+        &::before {
+            content: "\f067";
+            font-family: "Font Awesome 5 Pro";
+            padding-right: 5px;
+        }
+    }
+
+
+    &.cancel {
+        color: #000 !important;
+        background-color: #e1e9ff !important;
+        font-weight: 500;
+        border-radius: 25px;
+        border: 0.5px solid #a8c0ff;
+        &::before{
+           content: "\f00d";
+            font-family: "Font Awesome 5 Pro";
+            padding-right: 5px; 
+        }
+    }
+
+    &.back {
+        color: #000 !important;
+        background-color: #e1e9ff !important;
+        font-weight: 500;
+        border-radius: 25px;
+        border: 0.5px solid #a8c0ff;
+
+        &::before {
+            content: "\f053";
+            font-family: "Font Awesome 5 Pro";
+            padding-right: 5px;
+        }
+    }
+
+    &.draft {
+        color: #000 !important;
+        background-color: #e1e9ff !important;
+        font-weight: 500;
+        border-radius: 25px;
+        border: 0.5px solid #a8c0ff;
+    }
+
+    &.save {
+        color: #000 !important;
+        background-color: #e1e9ff !important;
+        font-weight: 500;
+        border-radius: 25px;
+        border: 0.5px solid #a8c0ff;
+         &::before {
+             content: "\f0c7";
+             font-family: "Font Awesome 5 Pro";
+             padding-right: 5px;
+         }
+    }
+
+    &.search{
+        color: #000 !important;
+        background-color: #e1e9ff !important;
+        font-weight: 500;
+        border-radius: 25px;
+        border: 0.5px solid #a8c0ff;
+       margin-right: 10px;
+        &::before {
+            content: "\f002";
+            font-family: "Font Awesome 5 Pro";
+            padding-right: 5px;
+        }
+    }
+
+}
+

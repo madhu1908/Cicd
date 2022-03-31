@@ -1,0 +1,224 @@
+.dropdown-task{
+    .dropdown-menu {
+    padding: 0px !important;
+}
+.btn{
+    margin-left: 0px !important;
+    margin-right: 0px !important
+}
+}
+
+.comm-datagrid{
+    th{
+        display: none;
+    }
+}
+
+.main-container{
+    border:  1px solid #c1c1c1;
+    border-radius: 5px;
+}
+.main-heading{
+    width: fit-content;
+    background-color: white!important;
+    border: 1px solid #3836da;
+    padding: 10px 20px ;
+    border-radius: 5px;
+    margin-top: -20px;
+    margin-left: 40px;
+}
+.main-text{
+    font-weight:600;
+    color: #3836da;
+    font-size: 12px;
+}
+.main-datagrid{
+     th {
+        // border-style: solid;
+        // border-color: #fafafa;
+        // border-top-width: 0;
+        // border-right: 0;
+        // border-bottom-width: 1px;
+        border: none !important;
+        background-color: #d6d6d6 !important;
+        padding: 16px 16px 16px 16px;
+        vertical-align: middle;
+    }
+    .mx-datagrid tbody td{
+        border: none !important;
+    }
+    .mx-datagrid tr {
+        color: #4f4f52;
+    background-color: #F2F2F1;
+    border-top: 1px solid #e2e2e2;
+    /* border-bottom: 1px solid #e2e2e2; */
+    border-left: 1px solid #e2e2e2;
+    /* text-transform: uppercase; */
+    /* text-align: left; */
+    line-height: 12px;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: .5px;
+    }
+    tbody tr{
+        border-top: none !important;
+        border: 0.1px solid #5f5f5f5e !important;
+    }
+
+}
+
+.quotation-list{
+    li{
+        border-top: none !important;
+        border-bottom: 1px solid #ced0d3;
+    }
+    button{
+        background-color:lightgreen;
+    }
+}
+.autocompleteWO{
+    .control-label{
+        padding-bottom: 10px !important;
+    }
+}
+.maintenance-page{
+    .btn{
+        font-size: 10px;
+        min-width: 110px !important;
+        height: 28.4px !important;
+        @include for-size(desktop-up){
+            font-size: 12px;
+            min-width: 130px !important;
+            height: 37px !important;
+        }
+    }
+    .glyphicon{
+        font-size: x-small;
+        top: 0px;
+        @include for-size(desktop-up){
+            font-size: initial;
+            top:1px;
+        }
+        @media (min-width: 1100px) and (max-width: 1280px) {
+            font-size: small;
+        }
+    }
+    h3{
+        font-size: 18px !important;
+                @include for-size(desktop-up){
+                    font-size: 24px !important;
+                }
+    }
+    h2{
+        font-size: 15px;
+        @include for-size(desktop-up){
+            font-size: 24px;
+        }
+        @media (min-width: 1100px) and (max-width: 1280px) {
+            font-size: 18px !important;
+          }
+    }
+    h4{
+        font-size: 11px !important;
+        @include for-size(desktop-up){
+            font-size: 17px !important;
+        }
+        @media (min-width: 1100px) and (max-width: 1280px) {
+            font-size: 14px !important;
+          }
+       
+    }
+    a{
+        font-size: 11px !important;
+        @include for-size(desktop-up){
+            font-size: 14px !important;
+        }
+        @media (min-width: 1100px) and (max-width: 1280px) {
+            font-size: 12px !important;
+          }  
+    }
+    h5{
+        font-size: 10px;
+        @include for-size(desktop-up){
+            font-size: 14px;
+        }
+    }
+    .redo-link{
+        font-size: 11px;
+        @include for-size(desktop-up){
+            font-size: 14px;
+        }
+    }
+    .mapbtn{
+        background: #014a8c;
+        color: #fff;
+        border: none;
+    }
+    
+    .personality-test-right{
+        max-height: 200px !important;
+        max-width: 200px !important;
+        @include for-size(desktop-up){
+            max-height: 300px !important;
+            max-width: 300px !important;
+        }
+        @media (min-width: 1100px) and (max-width: 1280px) {
+            max-height: 230px !important;
+        max-width: 230px !important;
+        }
+    }
+    
+    .profile-image{
+        min-width: 100px!important;
+        min-height: 100px !important;
+        max-height: 100px !important;
+        max-width: 100px !important;
+        @include for-size(desktop-up){
+            min-width: 130px !important;
+            min-height: 130px !important;
+            max-height: 130px !important;
+            max-width: 130px !important;
+        }
+        @media (min-width: 1100px) and (max-width: 1280px) {
+            min-width: 115px !important;
+            min-height: 115px !important;
+            max-height: 115px !important;
+            max-width: 115px !important;
+          }
+    }
+    .size-text{
+        font-size: 10px;
+        @include for-size(desktop-up){
+            font-size: 14px;
+
+        }
+        @media (min-width: 1100px) and (max-width: 1280px) {
+            font-size: 12px;
+        }
+    }
+    .skill-text12{
+        font-size: 10px;
+        @include for-size(desktop-up){
+            font-size:small;
+        }
+    }
+}
+
+.budgettable{
+    table.mx-table > tbody > tr{
+        border: 1px solid #e2e2e2;
+    }
+    table.mx-table > tbody > tr > td{
+        background: white;
+    }
+    table.mx-table th{
+        padding: 15px !important;
+    }
+}
+.budgettableperformance{
+    table.mx-table > tbody > tr > td{
+        background: white;
+        border: 0.5px solid #e2e2e2;
+        font-size: 10px;    
+    }
+}

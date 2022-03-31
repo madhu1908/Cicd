@@ -1,0 +1,255 @@
+.checklist{
+    border: 1px solid #9e9e9e;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 50px 10px 20px 10px;
+}
+.asset-ch{
+background: linear-gradient(to right, #c81707 0%, #fc4f00 100%);
+padding: 10px 40px;
+color: white;
+border-radius: 5px;
+z-index: 1;
+position: absolute;
+top: -20px;
+left: 55px;
+border:none;
+font-size: 13px;
+font-weight: 600;
+}
+.quest-tab {
+    background: linear-gradient(to right, #c81707 0%, #fc4f00 100%);
+    padding: 0px;
+    border-radius: 5px;
+}
+.checklist
+{
+    .mx-listview > ul > li {
+        transition: all 0.3s 0s cubic-bezier(0.4, 0, 0.2, 1);
+        transform-style: initial;
+        background-color: #fff;
+        padding: 10px;
+        border-top: none;
+        border-bottom: 1px solid #ced0d3;
+    }
+    .mx-listview > ul > li:last-child {
+        border-bottom: none;
+    }
+    button.btn.mx-button.mx-name-actionButton1.saveaa.btn-success {
+        background-color: #019c7d !important;
+        border-color: #019c7d !important;
+        color: white;
+        text-transform: uppercase;
+        font-weight:600;
+    }
+    .saveaa{
+        float:right;
+        margin-top: 20px;
+    }
+    .cancel
+    {
+        float:right;
+        margin-top: 20px;
+    }
+    button.cancel {
+        background-color: #f90304 !important;
+        text-transform: uppercase;
+        font-weight:600;
+    }
+    .form-control {
+        border: 1px solid transparent;
+        border-bottom: 1px solid #000000 !important;
+        border-radius: 0;
+        background-color: transparent;
+        padding: 0 !important;
+        margin-left: 60px;
+    margin-right: 20px;
+    }
+    .checkbox::before {
+        height: 13px;
+        width: 13px;
+        
+    }
+}
+.ans-tab
+{
+    border-left: 1px solid #acacac;
+    border-right: 1px solid #acacac;
+    border-bottom: 1px solid #acacac;
+}
+.quest-tab
+{
+    h4.mx-text.mx-name-text6 {
+        color: white;
+        text-transform: uppercase;
+        font-size: 14px;
+        padding-left: 50px;
+        padding-top: 5px;
+    }
+    h4.mx-text.mx-name-text7 {
+        color: white;
+        text-transform: uppercase;
+        font-size: 14px;
+        padding-left: 50px;
+        padding-top: 5px;
+    }
+    h4.mx-text.mx-name-text8 {
+        color: white;
+        text-transform: uppercase;
+        font-size: 14px;
+        padding-left: 50px;
+        padding-top: 5px;
+    }
+    
+}
+.ans-tab{
+
+    span.mx-text.mx-name-text3 {
+        padding-left: 40px;
+        font-weight: 700;
+        font-size: 13px;
+    }
+    h4.mx-text.mx-name-text5 {
+        font-size: 13px;
+        font-weight: 700;
+        padding-left: 48px;
+    }
+    span.mx-text.mx-name-text4 {
+        padding-left: 48px;
+        font-weight: 700;
+        font-size: 13px;
+    }
+    span.mx-text.mx-name-text9.checkbox.pt-1 {
+        font-size: 13px;
+    
+    }
+    span.mx-text.mx-name-text9.checkbox-selected {
+        font-size: 13px;
+    }
+
+    .checklist-options ul li {
+        margin-left: 45px;
+    }
+    .sectionheader-bg {
+        background: lightgreen;
+    }
+    .checkbox-selected::before {
+    width:13px;
+    height:13px;
+    font-size: 10px;
+}
+}
+@media (max-width: 1280px)
+{
+.asset-ch {
+        font-size: 12px;
+    }
+.quest-tab
+{
+    h4.mx-text.mx-name-text6 {
+        font-size: 12px;
+    }
+    h4.mx-text.mx-name-text7 {
+        font-size: 12px;
+    }
+    h4.mx-text.mx-name-text8 {
+        font-size: 12px;
+    }
+    
+}
+.ans-tab{
+
+    span.mx-text.mx-name-text3 {
+        font-size: 11px;
+    }
+    h4.mx-text.mx-name-text5 {
+        font-size: 11px;
+   
+    }
+    span.mx-text.mx-name-text4 {
+        font-size: 11px;
+    }
+    span.mx-text.mx-name-text9.checkbox.pt-1 {
+        font-size: 11px;
+     
+    }
+    span.mx-text.mx-name-text9.checkbox-selected {
+        font-size: 11px;
+    }
+    .checkbox-selected::before {
+        width:13px;
+        height:13px;
+        font-size: 10px;
+    }
+}
+.checklist{
+    button.btn.mx-button.mx-name-actionButton1.saveaa.btn-success {
+    font-size:12px;
+    }
+    button.cancel {
+    font-size: 12px;
+   }
+   .checkbox::before {
+    height: 13px;
+    width: 13px;
+    
+}
+}
+}
+@media (max-width: 1200px)
+{
+.asset-ch {
+        font-size: 11px;
+    }
+.quest-tab
+{
+    h4.mx-text.mx-name-text6 {
+        font-size: 11px;
+    }
+    h4.mx-text.mx-name-text7 {
+        font-size: 11px;
+    }
+    h4.mx-text.mx-name-text8 {
+        font-size: 11px;
+    }
+    
+}
+.ans-tab{
+
+    span.mx-text.mx-name-text3 {
+        font-size: 10px;
+    }
+    h4.mx-text.mx-name-text5 {
+        font-size: 10px;
+    }
+    span.mx-text.mx-name-text4 {
+        font-size: 10px;
+    }
+    span.mx-text.mx-name-text9.checkbox.pt-1 {
+        font-size: 9px;
+     
+    }
+    span.mx-text.mx-name-text9.checkbox-selected {
+        font-size: 9px;
+    }
+    .checkbox-selected::before {
+        width:9px;
+        height:9px;
+        font-size: 7px;
+    }
+    .checkbox::before {
+        height: 9px;
+        width: 9px;
+        
+    }
+}
+.checklist{
+    button.btn.mx-button.mx-name-actionButton1.saveaa.btn-success {
+    font-size:11px;
+    }
+    button.cancel {
+    font-size: 11px;
+   }
+  
+}
+}

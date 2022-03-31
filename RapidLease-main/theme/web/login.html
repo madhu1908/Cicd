@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <script src="https://kit.fontawesome.com/36eda678c8.js" crossorigin="anonymous"></script>
+
+        {{themecss}} {{appicons}} {{manifest}} {{startupimages}}
+    </head>
+
+    <body>
+       
+        <div class="loginpage">
+            <div class="loginpage-content">
+                <div class="loginpage-formwrapper">
+                    <div class="logo">
+                        <img src="assets/sentosalogo.png">
+                    </div>
+                    <h2 class="login-title">Welcome To RapidLease!</h2>
+                    <form id="loginForm" class="loginpage-form" autocomplete="off">
+                        <div>
+                            <div id="loginMessage" class="alert alert-danger"></div>
+                            <div class="form-group form-group-start">
+                                <label class="control-label" id="usernameLabel" for="usernameInput">User name</label>
+                                <div class="inputwrapper">
+                                    <input
+                                        id="usernameInput"
+                                        class="form-control"
+                                        type="text"
+                                        placeholder="Enter User name"
+                                        autocorrect="off"
+                                        autocapitalize="none"
+                                        autocomplete="off"
+                                    />
+                                    <span class="glyphicon glyphicon-user"></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" id="passwordLabel" for="passwordInput">Password</label>
+                                <div class="inputwrapper">
+                                    <input
+                                        id="passwordInput"
+                                        class="form-control"
+                                        type="password"
+                                        placeholder="Enter Password"
+                                        autocorrect="off"
+                                        autocapitalize="none"
+                                        autocomplete="off"
+                                    />
+                                    <span class="glyphicon glyphicon-eye-close password-icon" onClick="togglePassword()"></span>
+                                </div>
+                            </div>
+                            <!--
+                            <div class="logged-in custom-control custom-checkbox">
+                                <input type="checkbox" id="signedIn" name="LoggedIn" value="LoggedIn">
+                                <label for="signedIn" class="signedInLabel"> Keep me Logged in</label>
+                            </div>-->
+                            <div class="login-btn">
+                                <button id="loginButton" type="submit" class="btn login-button"></button>
+                            </div>
+                            <div style="margin-top:0rem;">
+                                <h4 class="" >OR</h4>
+                            </div>
+                            
+                        
+                           <button class = "btn-lg uaepass-button"   class="btn btn-login">LOG IN WITH 
+                               <img class="singpass-button-img" src="assets/singpass.png"> 
+                           </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="js/login_i18n.js?{{cachebust}}"></script>
+        <script src="js/login.js?{{cachebust}}"></script>
+        <script>
+            document.getElementById('passwordInput').placeholder="Enter Password";
+            document.getElementById('usernameInput').placeholder="Enter Username";
+
+            document.getElementById('loginButton').innerHTML="<span id = 'buttontext' class='login-button-text'>Login</span>";
+            function togglePassword() {
+                const icon = document.querySelector("[class*=glyphicon-eye]");
+                if (icon.classList.contains("glyphicon-eye-close"))
+                    icon.classList.replace("glyphicon-eye-close", "glyphicon-eye-open");
+                else icon.classList.replace("glyphicon-eye-open", "glyphicon-eye-close");
+
+                const input = document.querySelector("#passwordInput");
+                if (input.type === "password") input.type = "text";
+                else input.type = "password";
+            }
+        </script>
+    </body>
+</html>

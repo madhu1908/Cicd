@@ -1,0 +1,226 @@
+.Custom-dropbuttons{
+        .dropdown-button
+        {
+        min-width: 10px;
+        min-height: 20px;
+        margin: 0;
+        border-radius: 50%;
+        padding: 11px 13px 8px 13px;
+        border: none;
+        color: gray !important;
+        box-shadow: 0px 0px 4px 1px #c1c1c1;
+        }
+}
+
+.CustomDate .mx-button{
+background-color: #c1c1c1;
+min-width: 20px;
+
+}
+.Custom-add li{
+        background: none !important;
+    border: none !important;
+    padding: 0px !important;
+}
+.Custom-onclick01{
+        // border: 1px solid darkgrey;
+    padding: 15px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px #c9c9c9;
+    background: linear-gradient(
+182deg, #c9f1eb, transparent);
+}
+.Custom-onclick01:hover{
+    // border: 1px solid darkgrey;
+padding: 15px 10px;
+border-radius: 5px;
+box-shadow: 0px 0px 2px 2px #c9c9c9;
+background: linear-gradient(
+182deg, #a9c9c4, transparent);
+}
+
+
+     //...............................................heading.....................................................
+
+
+.Customheading{
+    background: radial-gradient(circle, #475cf1 0%, #143ed9 100%);
+    padding: 5px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 50px;
+    font-weight: 500;
+    // font-size: 14pt;
+    width: 30%;
+    margin: -41px auto 20px auto;
+}
+@media (max-width: 1458px){
+    .Customheading {
+        background: radial-gradient(circle, #475cf1 0%, #143ed9 100%);
+        padding: 5px;
+        text-align: center;
+        color: #ffffff;
+        border-radius: 50px;
+        font-weight: 500;
+        // font-size: 10pt;
+        width: 30%;
+        margin: -37px auto 20px auto;
+        
+    }
+}
+
+.Customlistview {
+    .btn{
+        display: none;
+    }
+    li{
+        padding: 10px !important;
+    }
+}
+
+.Custom-border{
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-top: 40px;
+    li{
+        border-top: none !important;
+        border-bottom: none !important;
+    }
+}
+.Custom-title{
+    background: linear-gradient(
+270deg, #ff5200 0%, #c00d0a 100%);
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 2px;
+    position: absolute;
+    margin-top: -40px;
+    color: #fff;
+    font-size: 10pt;
+   
+}
+
+.Custom-Boxshadow{
+    border-radius: 10px;
+    box-shadow: 3px -3px 2px 0px #d1d1d1;
+    background-color: #e5e5e5;
+    padding: 10px;
+}
+.Customlistview01 {
+    .btn{
+        display: none;
+    }
+}
+
+.Custom-addressFeild{
+    h1,h2,h3,h4,h5,h6{
+        margin: 10px 0 0 0;
+    }
+}
+
+.Custom-undertitle{
+    color: #db0d05;
+    border-bottom: 3px solid #e44848;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    
+}
+.Custom-profile{
+    width: 80px !Important;
+    height: 80px !Important;
+    
+}
+.Custom-th{
+    background: linear-gradient(to right, rgb(194, 12, 10), rgb(255, 80, 0));
+    padding: 10px !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    .mx-text{
+        color: white;
+    }
+}
+
+.Custom-LP img{
+    height: 220px;
+    width: 365px;
+
+}
+.Custom-select .mx-templategrid-item:hover{
+    background-color: #ffffff00 !important;
+}
+.Custom-undertable li.active a{
+    color: #2447dd !important;
+    border: none !important;
+    font-size: 15px;
+    font-weight: 600 !important;
+}
+.Custom-grid table th{
+    background:  rgb(202, 20, 17);
+    padding: 10px !important;
+    // border-top-left-radius: 10px;
+    // border-top-right-radius: 10px;
+    .mx-text{
+        color: white;
+    }
+}
+.Custom-grid-1 table th{
+    background:   linear-gradient(to right, rgb(194, 12, 10), rgb(255, 80, 0));
+    padding: 10px !important;
+    // border-top-left-radius: 10px;
+    // border-top-right-radius: 10px;
+    .mx-text{
+        color: white;
+    }
+}
+.Custom-grid tbody .mx-left-aligned, .Custom-grid tbody .mx-right-aligned{
+    border-right: 1px solid lightgray;
+    
+}
+.Custom-grid{
+    margin : 10px auto;
+}
+.C-s h5{
+    margin: 25px 0 0 0;
+}
+.Custom-Align01{
+    .form-group .control-label{
+        max-width: 100px;
+    }
+}
+.C-d .btn{
+    min-width: 25px;
+}
+.C-r .mx-radiogroup{
+margin-top:6px;
+}
+
+@media (max-width:1200px){
+   .butt{
+        font-size: 11px;
+    }
+    .custom-aa{
+        .btn{
+            font-size: 11px;
+        }
+    }
+}
+.custom-aa{
+    .mx-name-search{
+        color: #000 !important;
+        background-color: #e1e9ff !important;
+        font-weight: 500;
+        border-radius: 25px;
+        border: 0.5px solid #a8c0ff;
+    }
+    .mx-name-reset{
+        color: #000 !important;
+        background-color: #e1e9ff !important;
+        font-weight: 500;
+        border-radius: 25px;
+        border: 0.5px solid #a8c0ff;
+    }
+    label{
+font-size: 10px;
+    }
+}

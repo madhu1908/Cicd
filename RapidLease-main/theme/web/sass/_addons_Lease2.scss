@@ -1,0 +1,39 @@
+.tabnoborder{
+    .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a, .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a:hover, .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a:focus{
+        border : 0px !important;
+    }
+}
+
+@media (min-width:900px){
+    
+    button.search{
+        font-size: 12px;
+    }
+    button.edit{
+        font-size: 12px;
+    }
+    .lease-view {
+              button.view{
+                   font-size: 11px !important;
+                   float:none;
+                       }
+               }
+    button.add {
+        font-size: 12px;
+    }
+    button.new {
+        font-size: 12px;
+    }
+    button.delete {
+        font-size: 12px;
+    }
+    .btn-x{
+        font-size: 12px;
+    }
+}
+
+.list-no-border{
+    .mx-listview > ul > li{
+        border: none;
+    }
+}

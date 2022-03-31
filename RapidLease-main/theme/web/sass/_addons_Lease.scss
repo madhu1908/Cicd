@@ -1,0 +1,322 @@
+.list-move{
+    ul li{
+       border: none !important;
+       padding: 0px;
+       
+   }
+}
+    .list-owner{
+         ul li{
+            border: none !important;
+            
+        }
+    }
+    .list-offer{
+        ul{
+            display: flex;
+            flex-direction: row;
+        }
+        ul li{
+            border: none !important;
+        }
+    }
+
+    .list-notes{
+        ul li{
+           border:1px solid #ced0d3;
+           border-radius:5px;
+           border-left: 5px solid #74bc7d;
+           padding: 10px;
+           margin-bottom: 13px;
+       }
+   }
+
+.table-list{
+    ul li{
+        padding:0px;
+    }
+}
+.table-no-border{
+    tr{
+        border: none !important;
+    }
+}
+.format-table{
+    table.mx-table > tbody > tr{
+        border: 0px solid transparent;
+    }
+    th{
+        text-align: center;
+        padding: 15px;
+    }
+   
+    .option-button .dropdown-button {
+        min-width: 5px;
+
+        max-width: -4px;
+        margin: 0;
+        width: 35px;
+        
+        height: 35px;
+        border-radius: 50%;
+        padding: 11px 13px 8px 13px;
+        border: 1px solid gray;
+        color: gray !important;
+    }
+    .mx-listview > ul > li{
+        border: 1px solid #bed0ff;
+        border-top: none !important;
+    }
+    .option-button .dropdown-button .glyphicon {
+        position: absolute;
+    right: 9px;
+    padding: 9px 0px;
+        
+    }
+    .inner-table{
+     tr{
+        border-left:1px solid #e2e2e2;
+    
+    }
+     td{
+        border-right:none;
+    }
+}
+    .mx-listview .mx-table td{
+        padding:8px;
+    }
+
+}
+.btn-plus{
+  span{
+      color:black;
+  }
+}
+
+.under-tab{
+    .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a, .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a:hover{
+
+        color:#2447dd !important;
+        border: none !important;
+        font-size: 15px;
+    font-weight: 600;
+        
+    }
+    .nav-tabs {
+        border-bottom: none !important;
+        background-color: #337ab71f;
+    }
+    .mx-tabcontainer-badge{
+        margin-left: 8px;
+    border-radius: 7px;
+    color: #000;
+    color: #0c0b0b;
+    border: 2px solid #000;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    background: none !important;
+    border-top: none;
+    border-bottom: none;
+    padding: 0px 3px;
+    }
+}
+
+.custom_datepick{
+    input{
+               max-width:90px;
+    }
+    button{
+               min-width:20px;
+    }
+}
+
+.lease-tab{
+    .nav-tabs {
+        border-bottom: 1px solid #000;
+    }
+    
+        .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a, .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a:hover{
+            border-bottom: 3px solid  #4d15c6;
+        
+    }
+    .mx-tabcontainer .mx-tabcontainer-tabs > li > a:hover, .mx-tabcontainer .mx-tabcontainer-tabs > li > a:focus >a:visited {
+        background: none;
+        border: none;
+    }
+    .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a{
+       border-top: none;
+       border-left: none;
+       border-right: none;
+       outline: 0;
+    }
+    .mx-tabcontainer .mx-tabcontainer-tabs > li{
+        font-size: 14px;
+    }
+}
+
+.button-lease{
+    font-size: 12px;
+}
+
+.text-heading{
+    font-size: 25px;
+    font-weight: 500;
+    color: #e91717;
+    margin-bottom:20px;
+
+}
+
+.contact-popup{
+    .form-control {
+        border: 1px solid transparent;
+        border-bottom: 1px solid #999;
+        border-radius: 0;
+        background-color: transparent;
+        padding: 4px 0;
+        width: 20px;
+    }
+}
+
+.center-tab{
+    .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a, .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a:hover{
+    
+        color: #73b680;
+        border-color: #73b680;
+        background-color: transparent;
+        
+    }
+    input[type=checkbox]:before {
+        width: 100%;
+        height: 100%;
+        content: "";
+        border: 1px solid #0b0b0b;
+        border-radius: 4px;
+        
+    }
+}
+ 
+.poplist{
+    ul li{
+        border-left: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    }
+    
+}
+
+.clause-grid{
+    .mx-name-head-row {
+        color: #4f4f52 !important;
+    background-color: #e1e9ff !important;
+    border-top: 1px solid #e2e2e2 !important;
+    border-bottom: none !important;
+    /* border-bottom: 1px solid #e2e2e2; */
+    border-left: 1px solid #e2e2e2;
+    /* text-transform: uppercase; */
+    /* text-align: left; */
+    line-height: 12px;
+    font-weight: 700 !important;
+    font-size: 14px  !important;
+    letter-spacing: .5px;
+    font-family: arial,sans-serif;
+    }
+     table th{
+        background: none;
+        padding: 10px 16px 10px 16px;
+        
+    }
+   tr {
+    border-top: 1px solid #e2e2e2 !important;
+    /* border-bottom: 1px solid #e2e2e2; */
+    border-left: 1px solid #e2e2e2 !important;
+  }
+   th, td{
+       border: none !important;
+   }
+}
+
+.under-grid{
+    .mx-name-head-row{
+        background: none;
+    }
+    table th{
+        background:none ;
+        padding: 9px 16px 9px 16px;
+    border-bottom: 1px solid #999;
+    }
+    table th .mx-datagrid-head-caption{
+        color:#000;
+        font-weight:600;
+    }
+}
+.under-list{
+     ul li{
+        border: 1px solid #ced0d3;
+        border-radius: 5px;
+        
+        padding: 10px;
+        margin-bottom: 13px;
+     }
+}
+
+.table2{
+    td{
+        border:1px solid #dcdcdc;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1280px){
+    .mx-tabcontainer .mx-tabcontainer-tabs > li{
+        font-size: 14px;
+    }
+    .format-table h5 {
+        color: #0a1325;
+        font-weight: 500;
+        font-size: 13px;
+    }
+    
+
+}
+@media (max-width: 1200px){
+    .mx-tabcontainer .mx-tabcontainer-tabs > li{
+        font-size: 12px !important;
+    }
+    .format-table h5 {
+        color: #0a1325;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    button.add {
+        background-color: #007123 !important;
+        font-size: 11px;
+    }
+    button.new {
+        background-color: #17a68b !important;
+        font-size: 11px;
+    }
+    button.delete {
+        background-color: #d11a2a !important;
+        font-size: 11px;
+    }
+    button.search{
+        font-size: 11px;
+    }
+    button.edit{
+        font-size: 11px;
+    }
+    button.view{
+        font-size: 11px;
+    }
+    button.btn.mx-button.mx-name-actionButton3.btn-default{
+        font-size: 11px;
+    }
+
+}
+.tenant-grid{
+
+.mx-templategrid .mx-templategrid-item:hover{
+    background: none !important;
+}
+}
